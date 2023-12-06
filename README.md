@@ -7,30 +7,30 @@ Essa proposta visa otimizar a manutenção, centralizar API requests e gerenciam
 
 ```
 /app
-	/client
-		layout.tsx (consome a store do client)
-	/keyholder
-		layout.tsx (consome a store do keyholder)
-		/tela1
-			/components
-			page.tsx
-		/tela2
-		/etc
+  /client
+    layout.tsx (consome a store do client)
+  /keyholder
+    layout.tsx (consome a store do keyholder)
+    /tela1
+      /components
+      page.tsx
+    /tela2
+    /etc
 /stores
-	/keyholder
-		/hooks
-			index.ts
-		/api
-			index.ts
-			selectors.ts
-			types.ts
-		/features
-			/holders
-				selectors.ts
-				slice.ts
-				types.ts
-		index.tsx
-		types.ts
+  /keyholder
+    /hooks
+      index.ts
+    /api
+      index.ts
+      selectors.ts
+      types.ts
+    /features
+      /holders
+        selectors.ts
+        slice.ts
+        types.ts
+    index.tsx
+    types.ts
 ```
 
 ## RTK Query
