@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:api": "npx @rtk-query/codegen-openapi src/scripts/generateAPI.js",
+    "build:api": "npx @rtk-query/codegen-openapi src/scripts/generateApi.js",
     "start": "next start",
     "lint": "next lint"
   },
