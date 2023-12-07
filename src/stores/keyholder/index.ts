@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import { holdersSlice } from './features/holders/slice';
-import { apiSlice } from './api';
+import { apiSlice } from '../api';
 
 const keyHolderStore = configureStore({
   reducer: {

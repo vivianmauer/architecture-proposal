@@ -17,7 +17,7 @@ export const apiSlice = createApi({
 
     getPokemonDescription: builder.query<TGetPokemonDescriptionReturn, TGetPokemonDescriptionArgs>({
       query: ({id}) => `/pokemon/${id}`,
-      providesTags: ['pokemons']
+      providesTags: ['pokemons'],
     }),
   })
 })

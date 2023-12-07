@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:api": "npx @rtk-query/codegen-openapi src/scripts/generateAPI.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -16,6 +17,7 @@
     "react-redux": "^9.0.1"
   },
   "devDependencies": {
+    "@rtk-query/codegen-openapi": "^1.2.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
