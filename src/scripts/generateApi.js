@@ -1,5 +1,5 @@
 const config = {
-  schemaFile: 'docs-json.json',
+  schemaFile: 'https://api.dev.cdaxforex.com/docs-json',
   apiFile: './baseApi.ts',
   apiImport: 'baseApi',
   outputFile: 'index.ts',
